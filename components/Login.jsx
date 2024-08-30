@@ -45,7 +45,7 @@ function Login() {
       <h3 className={'text-4xl sm:text-5xl md:text-6xl ' + fugaz.className}>
         {isRegister ? 'Register' : 'Login'}
       </h3>
-      <p>You're one step away!</p>
+      <p>You&apos;re one step away!</p>
       <input 
         value={email} 
         onChange={(e) => { setEmail(e.target.value); }} 
